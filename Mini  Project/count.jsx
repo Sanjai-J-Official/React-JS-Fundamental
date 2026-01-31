@@ -10,7 +10,8 @@ function App(){
   
  },[count])
   return (<>
-   
+   <h1>Count Mini Task</h1>
+    
   <h1>Count:{count} </h1>
   <button class="button" onClick={()=>setCount(count+1)}>increase</button>
 <button class="button" onClick={()=>setCount(count-1)}>Decrease</button>
