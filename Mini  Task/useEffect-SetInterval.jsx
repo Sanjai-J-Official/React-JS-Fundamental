@@ -25,10 +25,12 @@ return ()=>{
   <h1 >Timer Count</h1>
   <h2>
     {count}
-    
+
+
+   
   </h2>
 {count >=5 && <p>Finished</p> }
-
+<h1>End</h1>
  </div>
 </>
     )
