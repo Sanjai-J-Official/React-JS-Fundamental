@@ -9,6 +9,7 @@ const [error, setError] =useState(null)
 
 const fetchData= async ()=>{
 
+ 
 try{
 setLoading(true)
     
