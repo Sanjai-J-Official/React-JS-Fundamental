@@ -6,7 +6,11 @@ const [value, setValue]=useState("");
 
 const istrue= value=== "true"
 return(
+
+ 
 <div>
+
+ 
 <input type="text"  onChange={(e)=>setValue(e.target.value)}/>
 
 <h1>{value}</h1>
