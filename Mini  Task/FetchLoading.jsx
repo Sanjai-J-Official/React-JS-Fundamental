@@ -2,7 +2,7 @@
  
 function App(){
 // https://jsonplaceholder.typicode.com/users
-   
+    
 const [userDatas, setData] =useState([])
 const [loading, setLoading] =useState(false)
 const [error, setError] =useState(null)
