@@ -8,6 +8,7 @@ function App(){
     password:"",
     agree:false
     })
+ 
   const [ Error, setError] = useState("")
   const [ success, setSuccess] = useState("")
 
